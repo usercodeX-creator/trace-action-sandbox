@@ -18,3 +18,12 @@ export async function fetchUser(id: number) {
 export function runScript(data: any) {
   return eval(data.code);
 }
+
+// extra broken pattern for PR test
+export function loadConfig(s: string) {
+  return eval(s);
+}
+
+export function tautoTest() {
+  return true === true;
+}
